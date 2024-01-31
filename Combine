@@ -1,0 +1,43 @@
+---------------COMBINING ALL TABLES-----------
+SELECT *
+	  FROM `my-data-project12345-402911.Cycalitic.Cycalitic_Trips` union all 
+	  select *
+	  from my-data-project12345-402911.Cycalitic.Cycalitic_Trips_10_1 union all
+	  select *
+	  from my-data-project12345-402911.Cycalitic.Cycalitic_Trips_10_2 union all
+	  select *
+	  from my-data-project12345-402911.Cycalitic.Cycalitic_Trips_11 union all
+    select *
+	  from my-data-project12345-402911.Cycalitic.Cycalitic_Trips_12 union all
+	  select *
+	  from my-data-project12345-402911.Cycalitic.Cycalitic_Trips_2 union all
+    select *
+    from my-data-project12345-402911.Cycalitic.Cycalitic_Trips_3 union all
+	  select *
+	  from my-data-project12345-402911.Cycalitic.Cycalitic_Trips_4 union all
+	  select *
+	  from my-data-project12345-402911.Cycalitic.Cycalitic_Trips_5_1 union all
+	  select *
+	  from my-data-project12345-402911.Cycalitic.Cycalitic_Trips_5_2 union all
+	  select *
+	  from my-data-project12345-402911.Cycalitic.Cycalitic_Trips_6_1 union all
+	  select *
+	  from my-data-project12345-402911.Cycalitic.Cycalitic_Trips_6_2 union all
+	  select *
+	  from my-data-project12345-402911.Cycalitic.Cycalitic_Trips_7_1 union all
+	  select *
+	  from my-data-project12345-402911.Cycalitic.Cycalitic_Trips_7_2 union all
+	  select *
+	  from my-data-project12345-402911.Cycalitic.Cycalitic_Trips_8_1 union all
+	  select *
+	  from my-data-project12345-402911.Cycalitic.Cycalitic_Trips_8_2 union all
+	  select *
+	  from my-data-project12345-402911.Cycalitic.Cycalitic_Trips_9_1 union all
+	  select *
+	  from my-data-project12345-402911.Cycalitic.Cycalitic_Trips_9_2
+	  As Cycalitics_Trips_ALL_2023
+
+
+---------------CHECKING NUMBER OF ROWS WHICH ARE 5719877 -----------
+SELECT COUNT (*)
+FROM `my-data-project12345-402911.Cycalitic.Cycalitics_Trips_ALL_2023`
