@@ -7,12 +7,12 @@ SELECT *
 	  from my-data-project12345-402911.Cycalitic.Cycalitic_Trips_10_2 union all
 	  select *
 	  from my-data-project12345-402911.Cycalitic.Cycalitic_Trips_11 union all
-    select *
+    	  select *
 	  from my-data-project12345-402911.Cycalitic.Cycalitic_Trips_12 union all
 	  select *
 	  from my-data-project12345-402911.Cycalitic.Cycalitic_Trips_2 union all
-    select *
-    from my-data-project12345-402911.Cycalitic.Cycalitic_Trips_3 union all
+    	  select *
+    	  from my-data-project12345-402911.Cycalitic.Cycalitic_Trips_3 union all
 	  select *
 	  from my-data-project12345-402911.Cycalitic.Cycalitic_Trips_4 union all
 	  select *
