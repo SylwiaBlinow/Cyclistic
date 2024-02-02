@@ -1,6 +1,17 @@
--- checking for duplicate---
+-----removing null rows--------
 
-SELECT ride_id, count(*)
-FROM `my-data-project12345-402911.Cycalitic.CLEANED`
-GROUP BY ride_id
-HAVING count(*) > 1;
+WITH null_cleaned AS(
+  SELECT *
+    FROM `my-data-project12345-402911.Cycalitic.Cycalitics_Trips_ALL_2023`
+    WHERE 
+    start_station_name IS NOT NULL
+      AND end_station_name IS NOT NULL
+      and end_station_id IS NOT NULL
+      and start_station_id IS NOT NULL
+      and start_lng IS NOT NULL
+      and end_lng IS NOT NULL
+      and start_lat IS NOT NULL
+      and end_lat IS NOT NULL
+)
+
+SELECT * FROM null_cleaned
