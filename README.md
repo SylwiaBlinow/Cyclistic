@@ -50,9 +50,12 @@ The process of data cleaning involves identifying errors in a dataset and then f
 
 In processing data I used EXCEL - POWER QUERY, SQL AND R language.
 
-$${\color{blue}POWER \space QUERY}$$ 
+### $${\color{blue}POWER \space QUERY}$$ 
 
 Steps:
+
+### _COMBINE_
+
 1.	I downloaded the previous 12 months of trip data (Jan 2023 to Dec 2023)
 2.	I unziped the files.
 3.	I created a folder on my  desktop to house the files. I used appropriate file-naming conventions.
@@ -107,9 +110,14 @@ https://github.com/SylwiaBlinow/Cyclistic/blob/main/1.Combine_SQL
 
 ![Picture11](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/9e0aaa54-8120-4a8a-9cb5-5ceaa5156931)
 
-8.	I removed null rows
+8.	I checked whether there are duplicate data after the ride_id - there were none
+
+![Picture12](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/628f494d-34fb-4d12-b78f-c45a1a8e12e8)
+
+10.	I removed null rows
+
    
-10.	I wrote a query to create a new bikeshare table adding a column calculating the length of each ride in minutes, the month the ride took place in and a column for the day of the week the ride took place (1 = Sunday, 7 = Saturday).
+11.	I wrote a query to create a new bikeshare table adding a column calculating the length of each ride in minutes, the month the ride took place in and a column for the day of the week the ride took place (1 = Sunday, 7 = Saturday).
 
 
 
