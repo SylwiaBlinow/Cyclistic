@@ -45,12 +45,42 @@ The data integrity and credibility are sufficient to provide reliable and compre
 
 ### III. Process — From Dirty Data to Clean
 
-In this process we need to make sure that our organized data is complete and accurate. Clean data is the key to making sure our data has integrity before we analyze it.  Data integrity is the accuracy, completeness, consistency, and trustworthiness of data throughout its lifecycle.
+In this process we need to make sure that our organized data is complete and accurate. Clean data is the key to making sure our data has integrity before we analyze it.  Data integrity is the accuracy, completeness, consistency, and trustworthiness of data throughout its lifecycle. 
+The process of data cleaning involves identifying errors in a dataset and then fixing or removing it. Data errors may include incorrect, duplicate, or incomplete data.
+
 Steps:
 1.	I downloaded the previous 12 months of trip data (Jan 2023 to Dec 2023)
 2.	I unziped the files.
 3.	I created a folder on my  desktop to house the files. I used appropriate file-naming conventions.
 4.	I created subfolders for the .csv file and Sheets file so that I have a copy of the original data. I moved the downloaded files to the appropriate subfolder.
-5.	I opened spreadsheet and used Power Query to import and clean data 
-6.	I  calculated the length of each ride by adding time substraction column (subtracting the column started_at from the column ended_at) 
+5.	I opened spreadsheet and used Power Query to import, merge and clean data
 
+![Picture3](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/5a4a83f9-83d5-44c7-a294-c87070850ca6)
+   
+6.	I counted rows and the results was: 5 719 877 rows
+   
+![Picture01](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/4cfc71a7-e92a-45b2-a98c-c246e2be2e3f)
+
+7.	I  calculated the length of each ride by adding time substraction column (subtracting the column started_at from the column ended_at)
+
+
+![Picture1](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/74acd67b-7344-4414-b4ed-911bb11f4e53)
+
+8.	I calculated the day of the week that each ride started by adding another column called day_of_week, where 0= Monday and 6=Sunday. Also I added day name and month name
+
+   
+![Picture2](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/c6e95f29-659d-4318-83ba-0a08c7532be5)
+
+9.	I removed empty cells in columns: [start_station_name], [start_station_id], [end_station_name], [end_station_id], [start_lat], [start_lng], [end_lat], [end_lng]
+
+10.	I separated hours of starting the trip
+
+
+
+![Picture6](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/8c09ce81-8cc3-4708-a6f3-ed3f7ad1419a)
+
+11.	I unfiltered trips with ride_lenghth lower than 2 minutes.
+
+![Picture7](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/7bd42bd2-efa7-4777-a740-de91e98e745e)
+
+### IV. Analyze — Find the Patterns
