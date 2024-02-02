@@ -116,11 +116,15 @@ https://github.com/SylwiaBlinow/Cyclistic/blob/main/2.Explore
 ![Picture12](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/628f494d-34fb-4d12-b78f-c45a1a8e12e8)
 
 ### _CLEAN_
-https://github.com/SylwiaBlinow/Cyclistic/blob/main/3.Cleandata
-10.	I removed null rows
+https://github.com/SylwiaBlinow/Cyclistic/blob/main/3.Clean%20data%20in%20SQL
 
+1.	I removed null rows
+
+2.	I created a column named ride_length showing the duration of the ride in hours.
    
-11.	I wrote a query to create a new bikeshare table adding a column calculating the length of each ride in minutes, the month the ride took place in and a column for the day of the week the ride took place (1 = Sunday, 7 = Saturday).
+4.	I calculated the duration in minutes in the column ride_min for ease of analysis
+
+5.	I created a column for the month and a day of the week the ride took place (1 = Sunday, 7 = Saturday).
 
 
 
