@@ -113,18 +113,22 @@ https://github.com/SylwiaBlinow/Cyclistic/blob/main/2.Explore
 
 3.	I checked whether there are duplicate data after the ride_id - there were none
 
-![Picture12](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/628f494d-34fb-4d12-b78f-c45a1a8e12e8)
+![Picture12](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/d01bc1d6-ed26-4899-9095-b2abbd7bd5a9)
 
 ### _CLEAN_
 https://github.com/SylwiaBlinow/Cyclistic/blob/main/3.Clean%20data%20in%20SQL
 
 1.	I removed null rows
 
-2.	I created a column named ride_length showing the duration of the ride in hours.
-   
-4.	I calculated the duration in minutes in the column ride_min for ease of analysis
+2.	I counted again number of row and the results was: 4 331 707 so 1 388 170 null rows were removed (I checked that the same as was in Power Query)
 
-5.	I created a column for the month and a day of the week the ride took place (1 = Sunday, 7 = Saturday).
+![Picture13](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/9f59635c-f20c-4c06-b6cb-35140350699c)
+
+3.	I added 3 more columns: ride_length for duration of the trip, day_of_week ((1 = Sunday, 7 = Saturday) and month.
+
+4.	I unfiltered trips with ride_lenghth lower than 2 minutes.
+   
+5.	I counted again number of row and the results was 4 166 574 
 
 
 
