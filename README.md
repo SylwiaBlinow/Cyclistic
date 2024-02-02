@@ -48,6 +48,10 @@ The data integrity and credibility are sufficient to provide reliable and compre
 In this process we need to make sure that our organized data is complete and accurate. Clean data is the key to making sure our data has integrity before we analyze it.  Data integrity is the accuracy, completeness, consistency, and trustworthiness of data throughout its lifecycle. 
 The process of data cleaning involves identifying errors in a dataset and then fixing or removing it. Data errors may include incorrect, duplicate, or incomplete data.
 
+In processing data I used EXCEL - POWER QUERY, SQL AND R language.
+
+$${\color{blue}POWER \space QUERY}$$ 
+
 Steps:
 1.	I downloaded the previous 12 months of trip data (Jan 2023 to Dec 2023)
 2.	I unziped the files.
@@ -79,8 +83,15 @@ Steps:
 
 ![Picture6](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/8c09ce81-8cc3-4708-a6f3-ed3f7ad1419a)
 
-11.	I unfiltered trips with ride_lenghth lower than 2 minutes.
+11.	I unfiltered trips with ride_lenghth lower than 2 minutes. The number of rows I had is 4 166 574 
 
 ![Picture7](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/7bd42bd2-efa7-4777-a740-de91e98e745e)
+
+![Picture9](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/c61e8397-0cc4-43c9-9b8f-7a5582ab7e38)
+
+
+$${\color{blue}SQL}$$ 
+
+
 
 ### IV. Analyze — Find the Patterns
