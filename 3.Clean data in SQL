@@ -16,5 +16,9 @@ WITH null_cleaned AS(
 
 SELECT * FROM null_cleaned
 
+-----checking number of rows which was 4 331 707--------
+
+SELECT COUNT (*)
+ FROM `my-data-project12345-402911.Cycalitic.CLEANED` 
 
 
