@@ -38,6 +38,4 @@ SELECT *
 	  As Cycalitics_Trips_ALL_2023
 
 
----------------CHECKING NUMBER OF ROWS WHICH ARE 5719877 -----------
-SELECT COUNT (*)
-FROM `my-data-project12345-402911.Cycalitic.Cycalitics_Trips_ALL_2023`
+
