@@ -92,6 +92,10 @@ Steps:
 
 $${\color{blue}SQL}$$ 
 
+1.	I created a dataset named Cycalitic_Trips in BigQuery and uploaded all 12 CSV files. 
+2.	I encountered an issue with 6 of the files, as their size exceeded the 100 MB limit for uploading to BigQuery. 
+3.	To resolve this, I split each of these files into two smaller files. 
+4.	I merged all the tables into a single table named cycalitics_trips_all_2023.
 
 
 ### IV. Analyze — Find the Patterns
