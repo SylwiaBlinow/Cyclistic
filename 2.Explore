@@ -1,3 +1,11 @@
+---------------CHECKING NUMBER OF ROWS WHICH ARE 5719877 -----------
+SELECT COUNT (*)
+FROM `my-data-project12345-402911.Cycalitic.Cycalitics_Trips_ALL_2023`
+
+
+
+---------------CHECKING NUMBER OF NULL VALUES IN ALL COLUMNS -----------
+
 SELECT COUNT(*) - COUNT(ride_id) ride_id,
  COUNT(*) - COUNT(rideable_type) rideable_type,
  COUNT(*) - COUNT(started_at) started_at,
