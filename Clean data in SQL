@@ -1,0 +1,6 @@
+-- checking for duplicate---
+
+SELECT ride_id, count(*)
+FROM `my-data-project12345-402911.Cycalitic.CLEANED`
+GROUP BY ride_id
+HAVING count(*) > 1;
