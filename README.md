@@ -100,6 +100,17 @@ $${\color{blue}SQL}$$
 
 https://github.com/SylwiaBlinow/Cyclistic/blob/main/1.Combine_SQL
 
-6.	I checked number of null values in all columns
-7.	
+6. I have counted rows and the results was: 5 719 877 rows (the same as was in Power Query)
+![Picture10](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/3397906c-b041-48c6-a5e1-02555c68934a)
+
+7.	I checked number of null values in all columns
+
+![Picture11](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/9e0aaa54-8120-4a8a-9cb5-5ceaa5156931)
+
+8.	I removed null rows
+   
+10.	I wrote a query to create a new bikeshare table adding a column calculating the length of each ride in minutes, the month the ride took place in and a column for the day of the week the ride took place (1 = Sunday, 7 = Saturday).
+
+
+
 ### IV. Analyze — Find the Patterns
