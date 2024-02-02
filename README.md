@@ -53,9 +53,6 @@ In processing data I used EXCEL - POWER QUERY, SQL AND R language.
 ### $${\color{blue}POWER \space QUERY}$$ 
 
 Steps:
-
-### _COMBINE_
-
 1.	I downloaded the previous 12 months of trip data (Jan 2023 to Dec 2023)
 2.	I unziped the files.
 3.	I created a folder on my  desktop to house the files. I used appropriate file-naming conventions.
@@ -93,7 +90,10 @@ Steps:
 ![Picture9](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/c61e8397-0cc4-43c9-9b8f-7a5582ab7e38)
 
 
-$${\color{blue}SQL}$$ 
+### $${\color{blue}SQL}$$ 
+
+### _COMBINE_
+https://github.com/SylwiaBlinow/Cyclistic/blob/main/1.Combine_SQL
 
 1.	I created a dataset named Cycalitic_Trips in BigQuery and uploaded all 12 CSV files. 
 2.	I encountered an issue with 6 of the files, as their size exceeded the 100 MB limit for uploading to BigQuery. 
@@ -101,16 +101,17 @@ $${\color{blue}SQL}$$
 4.	I merged all the tables into a single table named cycalitics_trips_all_2023.
 5.	I saved outcome as a dataset table Cycalitics_Trips_ALL_2023
 
-https://github.com/SylwiaBlinow/Cyclistic/blob/main/1.Combine_SQL
+### _EXPLORE_
+https://github.com/SylwiaBlinow/Cyclistic/blob/main/2.Explore
 
-6. I have counted rows and the results was: 5 719 877 rows (the same as was in Power Query)
+1. I have counted rows and the results was: 5 719 877 rows (the same as was in Power Query)
 ![Picture10](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/3397906c-b041-48c6-a5e1-02555c68934a)
 
-7.	I checked number of null values in all columns
+2.	I checked number of null values in all columns
 
 ![Picture11](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/9e0aaa54-8120-4a8a-9cb5-5ceaa5156931)
 
-8.	I checked whether there are duplicate data after the ride_id - there were none
+3.	I checked whether there are duplicate data after the ride_id - there were none
 
 ![Picture12](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/628f494d-34fb-4d12-b78f-c45a1a8e12e8)
 
