@@ -115,6 +115,8 @@ https://github.com/SylwiaBlinow/Cyclistic/blob/main/2.Explore
 
 ![Picture12](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/628f494d-34fb-4d12-b78f-c45a1a8e12e8)
 
+### _CLEAN_
+https://github.com/SylwiaBlinow/Cyclistic/blob/main/3.Cleandata
 10.	I removed null rows
 
    
