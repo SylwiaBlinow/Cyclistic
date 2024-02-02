@@ -22,3 +22,10 @@ SELECT COUNT(*) - COUNT(ride_id) ride_id,
 
  FROM `my-data-project12345-402911.Cycalitic.Cycalitics_Trips_ALL_2023` 
 
+-- CHECKING DUPLICATES------
+
+
+SELECT ride_id, count(*)
+FROM `my-data-project12345-402911.Cycalitic.Cycalitics_Trips_ALL_2023`
+GROUP BY ride_id
+HAVING count(*) > 1;
