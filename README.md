@@ -96,6 +96,10 @@ $${\color{blue}SQL}$$
 2.	I encountered an issue with 6 of the files, as their size exceeded the 100 MB limit for uploading to BigQuery. 
 3.	To resolve this, I split each of these files into two smaller files. 
 4.	I merged all the tables into a single table named cycalitics_trips_all_2023.
+5.	I saved outcome as a dataset table Cycalitics_Trips_ALL_2023
 
+https://github.com/SylwiaBlinow/Cyclistic/blob/main/1.Combine_SQL
 
+6.	I checked number of null values in all columns
+7.	
 ### IV. Analyze — Find the Patterns
