@@ -112,8 +112,14 @@ https://github.com/SylwiaBlinow/Cyclistic/blob/main/2.Explore
 ![Picture11](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/9e0aaa54-8120-4a8a-9cb5-5ceaa5156931)
 
 3.	I checked whether there are duplicate data after the ride_id - there were none
+   
 
 ![Picture12](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/d01bc1d6-ed26-4899-9095-b2abbd7bd5a9)
+
+4.	I looked at the bike types (rideable_type) and user type (member_casual) to check for distinct values, spelling errors, and trailing or leading space. No inconsistency  was detected
+
+![Picture15](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/77e2160a-e41d-4f49-b830-675190e92fa5)
+![Picture16](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/e16e7738-f3ed-47fb-869f-e0f21d34fdc9)
 
 ### _CLEAN_
 https://github.com/SylwiaBlinow/Cyclistic/blob/main/3.Clean%20data%20in%20SQL
@@ -124,12 +130,12 @@ https://github.com/SylwiaBlinow/Cyclistic/blob/main/3.Clean%20data%20in%20SQL
 
 ![Picture13](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/9f59635c-f20c-4c06-b6cb-35140350699c)
 
-3.	I added 3 more columns: ride_length for duration of the trip, day_of_week ((1 = Sunday, 7 = Saturday) and month.
+3.	I made new table and added 3 more columns: ride_length for duration of the trip, day_of_week ((1 = Sunday, 7 = Saturday) and month.
 
-4.	I unfiltered trips with ride_lenghth lower than 2 minutes.
+4.	I unfiltered trips with ride_lenghth lower than 2 minutes because are potentially test rides. In addition it helps to remove potentially negative ride length
    
 5.	I counted again number of row and the results was 4 166 574 
 
 
-
 ### IV. Analyze — Find the Patterns
+
