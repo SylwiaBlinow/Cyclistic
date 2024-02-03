@@ -29,3 +29,14 @@ SELECT ride_id, count(*)
 FROM `my-data-project12345-402911.Cycalitic.Cycalitics_Trips_ALL_2023`
 GROUP BY ride_id
 HAVING count(*) > 1;
+
+-- CHECKING ERRORS IN USER AND BIKE TYPES ------
+
+SELECT distinct rideable_type
+FROM  `my-data-project12345-402911.Cycalitic.Cycalitics_Trips_ALL_2023`;
+
+SELECT distinct member_casual
+FROM  `my-data-project12345-402911.Cycalitic.Cycalitics_Trips_ALL_2023`
+
+
+
