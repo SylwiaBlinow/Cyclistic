@@ -52,3 +52,22 @@ GROUP BY day_of_week, member_casual;
 SELECT EXTRACT(HOUR FROM started_at) AS hour_of_day, member_casual, AVG(ride_length) AS avg_ride_duration
 FROM `my-data-project12345-402911.Cycalitic.CLEANED_2`
 GROUP BY hour_of_day, member_casual;
+
+-- COUNT NUMBER OF TRIPS BY START STATION ----
+
+SELECT start_station_name, member_casual,
+  AVG(start_lat) AS start_lat, AVG(start_lng) AS start_lng,
+  COUNT(ride_id) AS total_trips
+FROM `my-data-project12345-402911.Cycalitic.CLEANED_2`
+GROUP BY start_station_name, member_casual
+ORDER BY total_trips DESC;
+
+
+-- COUNT NUMBER OF TRIPS BY END STATION ----
+
+SELECT end_station_name, member_casual,
+  AVG(end_lat) AS end_lat, AVG(end_lng) AS end_lng,
+  COUNT(ride_id) AS total_trips
+FROM `my-data-project12345-402911.Cycalitic.CLEANED_2`
+GROUP BY end_station_name, member_casual
+ORDER BY total_trips DESC;
