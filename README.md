@@ -161,4 +161,8 @@ https://github.com/SylwiaBlinow/Cyclistic/blob/main/4.Analyze
 
 3. Lastly, I calculated the number of rides per start and end stations for users to see which stations they prefer. 
 
+![Picture21](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/3936b79b-bf89-4f23-b305-67d76a4ce6ed)
+
+![Picture22](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/6d17225d-0206-4d2f-b04a-9a8552930e6a)
+
 
