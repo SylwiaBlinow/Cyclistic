@@ -14,3 +14,41 @@ GROUP BY member_casual, rideable_type
 ORDER BY member_casual, total_trips;
 
 
+-- COUNT NUMBER OF TRIPS PER MONTH FOR USERS----
+
+SELECT month, member_casual, COUNT(ride_id) AS total_trips
+FROM `my-data-project12345-402911.Cycalitic.CLEANED_2`
+GROUP BY month, member_casual
+ORDER BY member_casual;
+
+-- COUNT NUMBER OF TRIPS PER WEEK FOR USERS----
+
+SELECT day_of_week, member_casual, COUNT(ride_id) AS total_trips
+FROM `my-data-project12345-402911.Cycalitic.CLEANED_2`
+GROUP BY day_of_week, member_casual
+ORDER BY member_casual;
+
+-- COUNT NUMBER OF TRIPS PER HOUR FOR USERS----
+
+SELECT EXTRACT(HOUR FROM started_at) AS hour_of_day, member_casual, COUNT(ride_id) AS total_trips
+FROM `my-data-project12345-402911.Cycalitic.CLEANED_2`
+GROUP BY hour_of_day, member_casual
+ORDER BY member_casual;
+
+-- COUNT AVERAGE TRIPS PER MONTH FOR USERS----
+
+SELECT month, member_casual, AVG(ride_length) AS avg_ride_duration
+FROM `my-data-project12345-402911.Cycalitic.CLEANED_2`
+GROUP BY month, member_casual;
+
+-- COUNT AVERAGE TRIPS PER DAY OF WEEK FOR USERS----
+
+SELECT day_of_week, member_casual, AVG(ride_length) AS avg_ride_duration
+FROM `my-data-project12345-402911.Cycalitic.CLEANED_2`
+GROUP BY day_of_week, member_casual;
+
+-- COUNT AVERAGE TRIPS PER HOUR FOR USERS----
+
+SELECT EXTRACT(HOUR FROM started_at) AS hour_of_day, member_casual, AVG(ride_length) AS avg_ride_duration
+FROM `my-data-project12345-402911.Cycalitic.CLEANED_2`
+GROUP BY hour_of_day, member_casual;
