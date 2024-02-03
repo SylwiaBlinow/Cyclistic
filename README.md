@@ -157,10 +157,8 @@ https://github.com/SylwiaBlinow/Cyclistic/blob/main/4.Analyze
 ![Picture17](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/74faa957-44aa-48c0-851b-9b55c839fc96)
 
    
-2. I checked number of trips per month, per day and per hour by users
+2. I checked number of trips per month, per day and per hour by users as well as  average ride duration in minutes.
 
-3. I calculated  average ride duration in minutes for members and casual riders.
+3. Lastly, I calculated the number of rides per start and end stations for users to see which stations they prefer. 
 
 
-
-7.	
