@@ -48,7 +48,7 @@ The data integrity and credibility are sufficient to provide reliable and compre
 In this process we need to make sure that our organized data is complete and accurate. Clean data is the key to making sure our data has integrity before we analyze it.  Data integrity is the accuracy, completeness, consistency, and trustworthiness of data throughout its lifecycle. 
 The process of data cleaning involves identifying errors in a dataset and then fixing or removing it. Data errors may include incorrect, duplicate, or incomplete data.
 
-In processing data I used EXCEL - POWER QUERY, SQL AND R language.
+In processing data I used EXCEL - POWER QUERY, SQL AND R language. Power Query will help me to compare my results in SQL and find any mistakes in analysing data. 
 
 ### $${\color{blue}POWER \space QUERY}$$ 
 
@@ -105,11 +105,13 @@ https://github.com/SylwiaBlinow/Cyclistic/blob/main/1.Combine_SQL
 https://github.com/SylwiaBlinow/Cyclistic/blob/main/2.Explore
 
 1. I have counted rows and the results was: 5 719 877 rows (the same as was in Power Query)
-![Picture10](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/3397906c-b041-48c6-a5e1-02555c68934a)
+   
+![Picture11](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/9e0aaa54-8120-4a8a-9cb5-5ceaa5156931)
 
 2.	I checked number of null values in all columns
 
-![Picture11](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/9e0aaa54-8120-4a8a-9cb5-5ceaa5156931)
+![Picture10](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/3397906c-b041-48c6-a5e1-02555c68934a)
+
 
 3.	I checked whether there are duplicate data after the ride_id - there were none
    
@@ -119,6 +121,7 @@ https://github.com/SylwiaBlinow/Cyclistic/blob/main/2.Explore
 4.	I looked at the bike types (rideable_type) and user type (member_casual) to check for distinct values, spelling errors, and trailing or leading space. No inconsistency  was detected
 
 ![Picture15](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/77e2160a-e41d-4f49-b830-675190e92fa5)
+
 ![Picture16](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/e16e7738-f3ed-47fb-869f-e0f21d34fdc9)
 
 ### _CLEAN_
@@ -130,16 +133,20 @@ https://github.com/SylwiaBlinow/Cyclistic/blob/main/3.Clean%20data%20in%20SQL
 
 ![Picture13](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/9f59635c-f20c-4c06-b6cb-35140350699c)
 
-3.	I made new table and added 3 more columns: ride_length for duration of the trip, day_of_week ((1 = Sunday, 7 = Saturday) and month.
+3.	I made new table and added 3 more columns: ride_length for duration of the trip, day_of_week and month.
+
+![Picture19](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/b59eac45-bf91-4945-96e3-8cc1f4a4915c)
 
 4.	I unfiltered trips with ride_lenghth lower than 2 minutes because are potentially test rides. In addition it helps to remove potentially negative ride length
    
-5.	I counted again number of row and the results was 4 166 574
+5.	I checked again number of row and the results was 4 166 574 as well as in Power Query
 
 
-
+![Picture20](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/fb2ea0dc-a8c2-4077-a686-43538b2271c4)
 
 ### IV. Analyze — Find the Patterns
+
+
 
 Now that our data looks clean, I am ready to analyze data and find patterns, connections, insights, and predictions. 
 
@@ -150,8 +157,8 @@ Now that our data looks clean, I am ready to analyze data and find patterns, con
 
 ![Picture17](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/74faa957-44aa-48c0-851b-9b55c839fc96)
 
-  
-3. I calculated  average ride duration in minutes for embers and casual riders.
+ 
+2. I calculated  average ride duration in minutes for embers and casual riders.
 
 
   
