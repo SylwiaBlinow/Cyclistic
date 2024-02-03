@@ -146,23 +146,21 @@ https://github.com/SylwiaBlinow/Cyclistic/blob/main/3.Clean%20data%20in%20SQL
 
 ### IV. Analyze — Find the Patterns
 
+Now that our data looks clean, I am ready to analyze data and find patterns, connections, insights, and predictions.
 
+https://github.com/SylwiaBlinow/Cyclistic/blob/main/4.Analyze
 
-Now that our data looks clean, I am ready to analyze data and find patterns, connections, insights, and predictions. 
-
-
-1. I started by calculating the total rides for members and casual riders and total rides for users and bike types
+1. I started by calculating the total rides for members and casual riders and total rides for users and bike types. 
 
 ![Picture18](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/6a7dfc1c-8ea7-4679-a1a0-9162c877d90e)
 
 ![Picture17](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/74faa957-44aa-48c0-851b-9b55c839fc96)
 
- 
-2. I calculated  average ride duration in minutes for embers and casual riders.
+   
+2. I checked number of trips per month, per day and per hour by users
 
+3. I calculated  average ride duration in minutes for members and casual riders.
 
-  
-4. I also calculated the total rides for users by bike type to see the preferred type
 
 
 7.	
