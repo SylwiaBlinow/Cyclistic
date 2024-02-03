@@ -1,6 +1,16 @@
--- BIKE TYPES----
+-- COUNT NUMBER OF RIDES BY USER ----
+
+SELECT member_casual, 
+	count(ride_id)
+FROM `my-data-project12345-402911.Cycalitic.CLEANED_2` 
+GROUP BY member_casual;
+
+
+-- COUNT NUMBER OF RIDES BY BIKE TYPES AND USER----
 
 SELECT member_casual, rideable_type, COUNT(*) AS total_trips
 FROM `2022_tripdata.cleaned_combined_data`
 GROUP BY member_casual, rideable_type
 ORDER BY member_casual, total_trips;
+
+
