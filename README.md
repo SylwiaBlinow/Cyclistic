@@ -134,8 +134,28 @@ https://github.com/SylwiaBlinow/Cyclistic/blob/main/3.Clean%20data%20in%20SQL
 
 4.	I unfiltered trips with ride_lenghth lower than 2 minutes because are potentially test rides. In addition it helps to remove potentially negative ride length
    
-5.	I counted again number of row and the results was 4 166 574 
+5.	I counted again number of row and the results was 4 166 574
+
+
 
 
 ### IV. Analyze — Find the Patterns
 
+Now that our data looks clean, I am ready to analyze data and find patterns, connections, insights, and predictions. 
+
+
+1. I started by calculating the total rides for members and casual riders and total rides for users and bike types
+
+![Picture18](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/6a7dfc1c-8ea7-4679-a1a0-9162c877d90e)
+
+![Picture17](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/74faa957-44aa-48c0-851b-9b55c839fc96)
+
+  
+3. I calculated  average ride duration in minutes for embers and casual riders.
+
+
+  
+4. I also calculated the total rides for users by bike type to see the preferred type
+
+
+7.	
