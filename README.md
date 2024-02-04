@@ -159,6 +159,20 @@ https://github.com/SylwiaBlinow/Cyclistic/blob/main/4.Analyze
    
 2. I checked number of trips per month, per day and per hour by users as well as  average ride duration in minutes.
 
+![month](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/fc010ea4-0699-4be6-b8a0-c8b0806c5131)
+
+![month2](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/d802ac0c-cf54-49b8-820a-ee7090c7ad35)
+ 
+ ![week](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/3ac5234c-7ae1-4d5c-9478-8eb2c60e413f)  
+
+ ![HOUR](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/71f4b7b9-d5e3-4fcb-974e-d6481cb3e4c1)
+ 
+ ![HOUR2](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/8faa0335-49d7-4d92-80f8-f3825bf570a5)
+ 
+![HOUR3](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/120d7c0b-e16c-44e1-92d5-b0cf893d9cd2)
+
+![HOUR4](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/c3628086-f21b-4554-9518-65314b490d05)
+
 3. Lastly, I calculated the number of rides per start and end stations for users to see which stations they prefer. 
 
 ![Picture21](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/3936b79b-bf89-4f23-b305-67d76a4ce6ed)
