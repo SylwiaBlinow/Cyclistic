@@ -192,4 +192,52 @@ https://github.com/SylwiaBlinow/Cyclistic/blob/main/4.Analyze
 
 ![Picture22](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/6d17225d-0206-4d2f-b04a-9a8552930e6a)
 
+#### Total Trips Taken
 
+Users of Cyclistic bike-share services categorize into two types: Cyclistic members and Casual riders. The pie chart below shows the total number of trips each kind of user took from January 2023 to December 2023
+
+![Picture10](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/b27a66d9-57b3-4a02-b669-f7f39e7be054)
+
+![Picture11](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/7ee2b2c4-4eb4-4190-9e5b-f826ea74068e)
+
+
+*	Cyclistic members have recorded an overall higher activity with approximately 2.7 million trips. That is 64,29% of the total trips taken.
+  
+*	Casual riders, however, have recorded their activity with approximately 1.5 million trips. That is 35,71% of the total trips taken.
+
+#### Types of Bicycles Used
+
+Cyclistic has a variety of different bicycles. They can be categorized as classic, docked, and electric. The bar chart below shows the total number of trips each user took on the three different types of bicycles from January 2023 to December 2023
+
+![Picture12](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/873e50b1-0157-4df4-aba7-a8158efcae68)
+
+*	Cyclistic members prefer the classic bicycle to the electric one — of the total trips taken in one year, 1.75 million have been on a classic bicycle. That is 42,01% of the total trips taken. 0.93 million trips were on electric bicycles. That is 22,28% of the total trips taken and this outcome is not much bigger than classic bikes
+*	Casual riders have also shown a higher preference for classic bicycles — of the total trips taken in one year, 0.85 million have been on a classic bicycle. That is 20,43% of the total trips taken. On the other hand, only 0.56 million trips were on electric bicycles. That is 13,47% of the total trips taken.
+*	Casual riders have also used the docked bicycles, with 0.08 million trips taken. That is 1,80% of the total trips taken.
+
+#### Trips Taken in a Year
+
+With a total of 4.166.574  rides in a year, knowing which months had the most user activity is essential to identifying Cyclistic's target demographics. The bar chart below shows the total number of trips each user took in 12 months, from January 2023 to December 2023.
+
+![Picture13](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/4ff7399f-bc91-49ae-9260-35e6f28c249b)
+
+* Cyclistic members recorded their highest activity in August 2023, with 337 830 trips at 8.11%, and the lowest in February 2023, with 142 230,00 trips at 2.65%.
+* Casual riders recorded their highest activity in July 2023, with 238 156 trips at 5.72%, and the lowest in January 2023, with 28 564 trips at 0.69%.
+* From May to August, Cyclistic members recorded a higher user activity at 29.52% compared to casual riders, who had a user activity of 20.42%.
+
+#### Trips Taken in a Week
+
+![Picture14](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/cdd999fd-3cf0-48eb-b442-2c79dfbb7fb4)
+
+
+*	The casual users ride more on the weekends(Saturday & Sunday), while the member users rides mostly on the weekdays(Monday-Friday)
+
+![Picture15](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/12459f1e-a908-4367-9484-a8ee2a9976a7)
+
+*	The weekdays (Monday -Friday) had more rides compared to weekends in general
+
+ ![Picture16](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/4f23f6b4-ba81-4612-91b7-5a1c4d65afd5)
+
+* The average ride length is 23 minutes. Weekends have the longest ride length, while the weekdays have shorter ride length
+
+#### Mean Trip Duration Across the Year
