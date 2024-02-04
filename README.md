@@ -157,13 +157,18 @@ https://github.com/SylwiaBlinow/Cyclistic/blob/main/4.Analyze
 ![Picture17](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/74faa957-44aa-48c0-851b-9b55c839fc96)
 
    
-2. I checked number of trips per month, per day and per hour by users as well as  average ride duration in minutes.
+2. I checked number of trips:
+* per month:
 
 ![month](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/fc010ea4-0699-4be6-b8a0-c8b0806c5131)
 
 ![month2](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/d802ac0c-cf54-49b8-820a-ee7090c7ad35)
+
+* per day 
  
  ![week](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/3ac5234c-7ae1-4d5c-9478-8eb2c60e413f)  
+
+ * and per hour 
 
  ![HOUR](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/71f4b7b9-d5e3-4fcb-974e-d6481cb3e4c1)
  
@@ -172,6 +177,14 @@ https://github.com/SylwiaBlinow/Cyclistic/blob/main/4.Analyze
 ![HOUR3](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/120d7c0b-e16c-44e1-92d5-b0cf893d9cd2)
 
 ![HOUR4](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/c3628086-f21b-4554-9518-65314b490d05)
+
+3. I calculated an average ride duration in minutes:
+
+![avg](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/5a631730-6a42-46ed-8562-6bf0cef348a6)
+
+![avg1](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/4ad05d96-34a7-4343-8a37-794a0d8a7ba0)
+
+![avg2](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/bcfa11d2-d783-46f7-ace2-e169731aedd6)
 
 3. Lastly, I calculated the number of rides per start and end stations for users to see which stations they prefer. 
 
