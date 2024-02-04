@@ -56,6 +56,13 @@ FROM `my-data-project12345-402911.Cycalitic.CLEANED_2`
 GROUP BY hour_of_day, member_casual
 ORDER BY avg_ride_duration DESC;
 
+-- COUNT AVERAGE, MIN, MAX RIDE LENGTH ----
+
+SELECT min(ride_length),
+	max(ride_length),
+	avg(ride_length)
+FROM `my-data-project12345-402911.Cycalitic.CLEANED_2`
+
 -- COUNT NUMBER OF TRIPS BY START STATION ----
 
 SELECT start_station_name, member_casual,
