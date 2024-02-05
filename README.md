@@ -35,11 +35,11 @@ After downloading the source zip files, the first step is to create a folder wit
 
 **Credibility of Data**
 The credibility and integrity of our data can be determined using the ROCCC system and find out if our data is:
--	Reliable -  it has a large sample size
--	Original  - this is the original dataset as collected and made available by Motivate International Inc.
--	Comprehensive - there is information about each ride trip: member status of bike-user, ride date and time, starting location and ending location of trip, duration of bike ride. The data is unbiased and randomised where all other data is not covered: gender, age, race etc.
--	Current - it is relevant and up to date, thus indicating that the source refreshes its data regularly. The data is currently updated monthly. The dataset covered a whole year record in 2023 where this report is drafted in 2024.
--	Cted - the source has been vetted.
+* Reliable -  it has a large sample size
+* Original  - this is the original dataset as collected and made available by Motivate International Inc.
+* Comprehensive - there is information about each ride trip: member status of bike-user, ride date and time, starting location and ending location of trip, duration of bike ride. The data is unbiased and randomised where all other data is not covered: gender, age, race etc.
+* Current - it is relevant and up to date, thus indicating that the source refreshes its data regularly. The data is currently updated monthly. The dataset covered a whole year record in 2023 where this report is drafted in 2024.
+-	Cited - the source has been vetted.
 The data integrity and credibility are sufficient to provide reliable and comprehensive insights for the team's analysis.
 
 
@@ -192,6 +192,8 @@ https://github.com/SylwiaBlinow/Cyclistic/blob/main/4.Analyze
 
 ![Picture22](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/6d17225d-0206-4d2f-b04a-9a8552930e6a)
 
+### V. SHARE - Visualizing Insights
+
 #### Total Trips Taken
 
 Users of Cyclistic bike-share services categorize into two types: Cyclistic members and Casual riders. The pie chart below shows the total number of trips each kind of user took from January 2023 to December 2023
@@ -238,6 +240,35 @@ With a total of 4.166.574  rides in a year, knowing which months had the most us
 
  ![Picture16](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/4f23f6b4-ba81-4612-91b7-5a1c4d65afd5)
 
-* The average ride length is 23 minutes. Weekends have the longest ride length, while the weekdays have shorter ride length
+* The average ride length is 16 minutes. Weekends have the longest ride length, while the weekdays have shorter ride length
 
 #### Mean Trip Duration Across the Year
+
+Now that we know when user activity is highest or lowest, we can complement it with insights regarding duration of each trip. For example, the bar chart below shows each user's mean trip duration traveled in 12 months, from January 2023 to December 2023
+
+![Picture17](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/bfd22422-c9a1-4ca3-8d28-e7cbc10fe344)
+
+![Picture18](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/39b93bdd-c50f-4a93-a4fc-4562d4b49d13)
+
+* The average ride length is had casual users longer than members but members had more number of trips taken during year.
+
+
+#### Number of trips during the Day
+
+![Picture19](https://github.com/SylwiaBlinow/Cyclistic/assets/156024627/88707b4d-2626-4c13-9118-c305a19d41f8)
+
+The peak of using the bikes is at 8 am and at 5 pm by member users. Probably it is made by people commute to work. 
+
+
+### Recommendations
+
+We can conclude that member users and casual users are quite different group of people:
+* casual users use bike for casual reasons such as sightseeing or leisure. They have peak season of summertime, peak usage on weekend and off-rush hour and spend more time on bike. 
+* member users use bike at commuting hours in commercial areas with heavy traffic. They use bike more often but for short time.
+
+To convert casual riders into annual members, the following marketing strategies can be implemented:
+* online advertising with app benefits for memebrs
+* social media marketing showing users and they trips 
+* customer referral marketing with discounts
+* offering loyalty programs especially during summertime and weekends
+* organizing sightseeing events for members
